@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajinder Kumar | Security Researcher</title>
+    <meta name="description" content="Bajinder Kumar - Penetration Tester, Offensive Security Researcher, and Bug Bounty Hunter. Breaking security to build it stronger.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Background Orbs -->
+    <div class="bg-orbs" aria-hidden="true">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="orb orb-4"></div>
+        <div class="orb orb-5"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="nav-logo">BAJINDER</a>
+        <div class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#halloffame">Hall of Fame</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact" class="btn btn-nav">Get in Touch</a>
+        </div>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <p class="hero-tag anim-fade-down">// sudo access_granted &mdash; welcome to the portfolio</p>
+            <h1 class="hero-title anim-fade-up">BREAKING SECURITY,<br>BUILDING DEFENSE.</h1>
+            <p class="hero-subtitle anim-fade-up delay-1">Bajinder is probably breaking into something right now, so his portfolio had to speak for itself. Consider this your briefing.</p>
+            <p class="hero-cheesy anim-fade-up delay-1">&ldquo;I don&rsquo;t find bugs. Bugs find out they can&rsquo;t hide from me.&rdquo;</p>
+            <div class="hero-buttons anim-fade-up delay-2">
+                <a href="#contact" class="btn btn-primary">Hire the Hacker</a>
+                <a href="#about" class="btn btn-outline">Read the Dossier</a>
+            </div>
+        </div>
+        <div class="hero-globe anim-fade-up delay-2">
+            <canvas id="globeCanvas"></canvas>
+        </div>
+    </section>
+
+    <!-- Expertise -->
+    <section class="expertise">
+        <p class="expertise-intro reveal">Three ways Bajinder makes the internet regret having vulnerabilities:</p>
+        <div class="expertise-grid">
+            <div class="expertise-card tilt-card reveal-left">
+                <div class="tilt-glare"></div>
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    <path d="M12 8v4M12 16h.01"/>
+                </svg>
+                <h3>PENETRATION TESTING</h3>
+                <p class="card-cheesy">&ldquo;Your firewall said no. I said watch me.&rdquo;</p>
+                <p>Full-scope web application VAPT across OWASP Top 10 categories with exploit chaining and authentication bypasses.</p>
+            </div>
+            <div class="expertise-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+                    <line x1="12" y1="2" x2="12" y2="6"/><line x1="12" y1="18" x2="12" y2="22"/>
+                    <line x1="2" y1="12" x2="6" y2="12"/><line x1="18" y1="12" x2="22" y2="12"/>
+                </svg>
+                <h3>BUG BOUNTY HUNTING</h3>
+                <p class="card-cheesy">&ldquo;Getting paid to break things legally? Dream job unlocked.&rdquo;</p>
+                <p>20+ offensive assessments on HackerOne, Bugcrowd, and Com Olho with 10+ validated vulnerabilities responsibly disclosed.</p>
+            </div>
+            <div class="expertise-card tilt-card reveal-right">
+                <div class="tilt-glare"></div>
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="18" rx="2"/>
+                    <polyline points="6,9 10,13 6,17"/>
+                    <line x1="14" y1="17" x2="18" y2="17"/>
+                </svg>
+                <h3>SECURITY TOOLING</h3>
+                <p class="card-cheesy">&ldquo;Why hack manually when you can automate the chaos?&rdquo;</p>
+                <p>Building C2 frameworks and offensive automation pipelines mapped against MITRE ATT&amp;CK for adversary simulation.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ticker -->
+    <div class="ticker">
+        <div class="ticker-track">
+            <span>PENETRATION TESTING&nbsp;&nbsp;&#9632;&nbsp;&nbsp;BUG BOUNTY&nbsp;&nbsp;&#9632;&nbsp;&nbsp;OWASP TOP 10&nbsp;&nbsp;&#9632;&nbsp;&nbsp;RED TEAMING&nbsp;&nbsp;&#9632;&nbsp;&nbsp;EXPLOIT DEVELOPMENT&nbsp;&nbsp;&#9632;&nbsp;&nbsp;IDOR&nbsp;&nbsp;&#9632;&nbsp;&nbsp;XSS&nbsp;&nbsp;&#9632;&nbsp;&nbsp;SSRF&nbsp;&nbsp;&#9632;&nbsp;&nbsp;SQL INJECTION&nbsp;&nbsp;&#9632;&nbsp;&nbsp;AUTH BYPASS&nbsp;&nbsp;&#9632;&nbsp;&nbsp;REVERSE SHELL&nbsp;&nbsp;&#9632;&nbsp;&nbsp;MITRE ATT&amp;CK&nbsp;&nbsp;&#9632;&nbsp;&nbsp;THREAT MODELING&nbsp;&nbsp;&#9632;&nbsp;&nbsp;CLOUD SECURITY&nbsp;&nbsp;&#9632;&nbsp;&nbsp;</span>
+            <span>PENETRATION TESTING&nbsp;&nbsp;&#9632;&nbsp;&nbsp;BUG BOUNTY&nbsp;&nbsp;&#9632;&nbsp;&nbsp;OWASP TOP 10&nbsp;&nbsp;&#9632;&nbsp;&nbsp;RED TEAMING&nbsp;&nbsp;&#9632;&nbsp;&nbsp;EXPLOIT DEVELOPMENT&nbsp;&nbsp;&#9632;&nbsp;&nbsp;IDOR&nbsp;&nbsp;&#9632;&nbsp;&nbsp;XSS&nbsp;&nbsp;&#9632;&nbsp;&nbsp;SSRF&nbsp;&nbsp;&#9632;&nbsp;&nbsp;SQL INJECTION&nbsp;&nbsp;&#9632;&nbsp;&nbsp;AUTH BYPASS&nbsp;&nbsp;&#9632;&nbsp;&nbsp;REVERSE SHELL&nbsp;&nbsp;&#9632;&nbsp;&nbsp;MITRE ATT&amp;CK&nbsp;&nbsp;&#9632;&nbsp;&nbsp;THREAT MODELING&nbsp;&nbsp;&#9632;&nbsp;&nbsp;CLOUD SECURITY&nbsp;&nbsp;&#9632;&nbsp;&nbsp;</span>
+        </div>
+    </div>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <span class="section-label reveal">/ ABOUT ME</span>
+        <h2 class="about-headline reveal">I FIND THE VULNERABILITIES<br>OTHERS MISS AND BUILD THE<br>TOOLS TO DO IT AT SCALE.</h2>
+        <p class="about-quirk reveal">&ldquo;While most people scroll social media, Bajinder scrolls through HTTP responses looking for misconfigurations. Some call it obsession. He calls it Tuesday.&rdquo;</p>
+        <div class="about-cards">
+            <div class="about-card tilt-card reveal-left">
+                <div class="tilt-glare"></div>
+                <h4>/ MISSION</h4>
+                <p class="card-cheesy">&ldquo;Break it before the bad guys do.&rdquo;</p>
+                <p>Driven by curiosity and a passion for offensive security, I specialize in uncovering critical vulnerabilities across web applications and building open-source tools that empower the security community through responsible disclosure.</p>
+            </div>
+            <div class="about-card tilt-card reveal-right">
+                <div class="tilt-glare"></div>
+                <h4>/ VISION</h4>
+                <p class="card-cheesy">&ldquo;A safer internet, one exploit chain at a time.&rdquo;</p>
+                <p>To push the boundaries of offensive security research, contribute to a safer internet through responsible disclosure, and develop next-generation security automation frameworks that scale the hunt.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+        <span class="section-label reveal">/ EXPERIENCE</span>
+        <p class="section-quirk reveal">&ldquo;Not just theoretical knowledge &mdash; real systems tested, real bugs found, real reports submitted. The kind of experience that keeps CISOs up at night.&rdquo;</p>
+        <div class="experience-list">
+            <div class="experience-item tilt-card reveal-left">
+                <div class="tilt-glare"></div>
+                <div class="experience-header">
+                    <div>
+                        <h3>Cyber Security Intern &mdash; Penetration Tester</h3>
+                        <span class="experience-company">BPRD &mdash; Delhi, India</span>
+                    </div>
+                    <span class="experience-date">Aug 2025 &mdash; Sept 2025</span>
+                </div>
+                <p class="card-cheesy">&ldquo;They gave me access to test their security. They didn&rsquo;t expect me to actually break it.&rdquo;</p>
+                <ul>
+                    <li>Conducted full-scope web application penetration testing across all OWASP Top 10 categories; chained injection flaws with authentication bypasses to demonstrate real-world business impact.</li>
+                    <li>Exploited IDOR, broken access control, insecure input handling, and weak session management via PoC; delivered CVSS-rated reports with reproduction steps and remediation guidance.</li>
+                </ul>
+            </div>
+            <div class="experience-item tilt-card reveal-right">
+                <div class="tilt-glare"></div>
+                <div class="experience-header">
+                    <div>
+                        <h3>Bug Bounty Researcher</h3>
+                        <span class="experience-company">Freelance &mdash; Remote</span>
+                    </div>
+                    <span class="experience-date">May 2025 &mdash; Present</span>
+                </div>
+                <p class="card-cheesy">&ldquo;Freelance means I choose which companies to ethically terrify.&rdquo;</p>
+                <ul>
+                    <li>Performed 20+ offensive assessments on live targets via HackerOne, Com Olho, and Bugcrowd; responsibly disclosed 10+ validated vulnerabilities (IDOR, XSS, auth bypass) with full exploit chains.</li>
+                    <li>Applied recon-to-exploitation workflows &mdash; subdomain enumeration, endpoint discovery, parameter fuzzing &mdash; to maximize attack surface coverage across diverse application architectures.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hall of Fame -->
+    <section class="hall-of-fame" id="halloffame">
+        <span class="section-label reveal">/ HALL OF FAME</span>
+        <p class="section-quirk reveal">&ldquo;Companies don&rsquo;t put your name on their wall unless you genuinely scared them first. These ones were kind enough to say thank you.&rdquo;</p>
+        <div class="hof-grid">
+            <a href="https://wework.co.in/policies/responsible-disclosure-policy/hall-of-fame/" target="_blank" rel="noopener" class="hof-card tilt-card reveal-left">
+                <div class="tilt-glare"></div>
+                <div class="hof-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                </div>
+                <h3>WeWork India</h3>
+                <span class="hof-year">2026</span>
+                <p class="card-cheesy">&ldquo;Found a way in. Told them about it. They thanked me instead of suing me.&rdquo;</p>
+                <p>Discovered and responsibly disclosed a critical vulnerability within WeWork India&rsquo;s platform.</p>
+                <span class="hof-link">View Hall of Fame &rarr;</span>
+            </a>
+            <a href="https://bigosaur.com/security/hof.html" target="_blank" rel="noopener" class="hof-card tilt-card reveal-right">
+                <div class="tilt-glare"></div>
+                <div class="hof-icon">
+                    <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                    </svg>
+                </div>
+                <h3>Bigosaur</h3>
+                <span class="hof-year">2026</span>
+                <p class="card-cheesy">&ldquo;Two bugs, one afternoon. Efficiency is an art form.&rdquo;</p>
+                <p>Identified 2 vulnerabilities &mdash; user enumeration via high-rate-limit endpoint and authorization bypass on password-protected translation pages.</p>
+                <span class="hof-link">View Hall of Fame &rarr;</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <span class="section-label reveal">/ PROJECTS</span>
+        <p class="section-quirk reveal">&ldquo;When Bajinder isn&rsquo;t hunting bugs, he&rsquo;s building the weapons to hunt them faster. Think Tony Stark, but for cybersecurity. And on a student budget.&rdquo;</p>
+        <div class="projects-grid">
+            <div class="project-card tilt-card reveal-left">
+                <div class="tilt-glare"></div>
+                <div class="project-header">
+                    <h3>C2 SERVER</h3>
+                    <span class="project-date">2024 &mdash; Present</span>
+                </div>
+                <p class="project-desc">Adversary Simulation &amp; Post-Exploitation Framework</p>
+                <p class="card-cheesy">&ldquo;Built my own command &amp; control server. For educational purposes, obviously.&rdquo;</p>
+                <div class="project-tags">
+                    <span>Python</span><span>Linux</span><span>Windows</span><span>TCP/IP</span><span>MITRE ATT&amp;CK</span>
+                </div>
+                <ul>
+                    <li>Engineered a C2 infrastructure (CLI &amp; GUI) simulating threat actor post-exploitation workflows; built cross-platform reverse shell payloads for remote execution and persistence.</li>
+                    <li>Mapped against MITRE ATT&amp;CK TTPs (C2, Execution, Persistence) and applied malware tradecraft principles to assess defensive detection gaps.</li>
+                </ul>
+                <a href="https://github.com/Bajinder17" target="_blank" rel="noopener" class="project-link">View on GitHub &rarr;</a>
+            </div>
+            <div class="project-card tilt-card reveal-right">
+                <div class="tilt-glare"></div>
+                <div class="project-header">
+                    <h3>AUTOSTRIKE</h3>
+                    <span class="project-date">2025 &mdash; Present</span>
+                </div>
+                <p class="project-desc">AI-Powered Offensive Recon &amp; Exploit Automation Framework</p>
+                <p class="card-cheesy">&ldquo;9 modules, 15+ tools, 1 sleep-deprived developer. Worth it.&rdquo;</p>
+                <div class="project-tags">
+                    <span>Python</span><span>Bash</span><span>Gemini CLI</span><span>Nuclei</span><span>Subfinder</span><span>HTTPX</span>
+                </div>
+                <ul>
+                    <li>Built a modular offensive security automation framework with 9 modules and 15+ integrated tools automating the full recon-to-exploitation-to-report pipeline.</li>
+                    <li>Designed a 7-Question Gate triage engine (Gemini CLI) for AI-assisted vulnerability validation and auto-generated reports with CVSS scoring; includes autonomous autopilot mode.</li>
+                </ul>
+                <a href="https://github.com/Bajinder17" target="_blank" rel="noopener" class="project-link">View on GitHub &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Certifications -->
+    <section class="skills" id="skills">
+        <span class="section-label reveal">/ SKILLS &amp; CERTIFICATIONS</span>
+        <p class="section-quirk reveal">&ldquo;The credentials that prove the skills, and the skills that don&rsquo;t need credentials. Bajinder collects certs like some people collect sneakers &mdash; except these actually get you into places.&rdquo;</p>
+
+        <div class="stats-grid">
+            <div class="stat-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <span class="stat-number count-up" data-target="37">0</span>
+                <span class="stat-label">AIR &mdash; Pentathon National</span>
+            </div>
+            <div class="stat-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <span class="stat-number">&lt;5000</span>
+                <span class="stat-label">PortSwigger Global Rank</span>
+            </div>
+            <div class="stat-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <span class="stat-number count-up" data-target="493">0</span>
+                <span class="stat-label">TryHackMe Hacktify CTF</span>
+            </div>
+            <div class="stat-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <span class="stat-number count-up" data-target="100">0</span>
+                <span class="stat-suffix">+</span>
+                <span class="stat-label">Workshop Members Led</span>
+            </div>
+        </div>
+
+        <div class="certs-grid">
+            <div class="cert-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <div class="cert-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        <path d="M9 12l2 2 4-4"/>
+                    </svg>
+                </div>
+                <span class="cert-name">eJPTv2</span>
+                <span class="cert-full">eLearnSecurity Junior Penetration Tester</span>
+                <span class="cert-issuer">INE Security</span>
+            </div>
+            <div class="cert-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <div class="cert-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="8" r="6"/>
+                        <path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/>
+                    </svg>
+                </div>
+                <span class="cert-name">ICCA</span>
+                <span class="cert-full">INE Certified Cloud Associate</span>
+                <span class="cert-issuer">INE Security</span>
+            </div>
+            <div class="cert-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <div class="cert-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="18" rx="2"/>
+                        <polyline points="6,9 10,13 6,17"/>
+                        <line x1="14" y1="17" x2="18" y2="17"/>
+                    </svg>
+                </div>
+                <span class="cert-name">MCRTA</span>
+                <span class="cert-full">Multi-Cloud Red Team Analyst</span>
+                <span class="cert-issuer">CyberWarFare Labs</span>
+            </div>
+            <div class="cert-card tilt-card reveal">
+                <div class="tilt-glare"></div>
+                <div class="cert-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D4A017" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2L3 7v5c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7L12 2z"/>
+                        <circle cx="12" cy="12" r="3"/>
+                    </svg>
+                </div>
+                <span class="cert-name">Jr. Pentester</span>
+                <span class="cert-full">Junior Penetration Tester Path</span>
+                <span class="cert-issuer">TryHackMe</span>
+            </div>
+        </div>
+
+        <div class="skills-group">
+            <div class="skill-category tilt-card reveal-left">
+                <div class="tilt-glare"></div>
+                <h4>Offensive Security</h4>
+                <p>Web App VAPT, Exploit Development &amp; Chaining, Adversary Simulation, Red Teaming, Post-Exploitation, Reverse Shell Engineering, Payload Crafting, Attack Surface Analysis, Threat Modeling</p>
+            </div>
+            <div class="skill-category tilt-card reveal-right">
+                <div class="tilt-glare"></div>
+                <h4>Vulnerability Research</h4>
+                <p>OWASP Top 10, IDOR, XSS, SQLi, Broken Access Control, Auth Bypass, SSRF, Business Logic Flaws, CVSS Risk Assessment</p>
+            </div>
+            <div class="skill-category tilt-card reveal-left">
+                <div class="tilt-glare"></div>
+                <h4>Tools</h4>
+                <p>Burp Suite, Nmap, SQLMap, Nikto, Nuclei, Subfinder, HTTPX, Trufflehog, Metasploit, MITRE ATT&amp;CK, Azure Resource Graph, AWS CLI, Gemini CLI</p>
+            </div>
+            <div class="skill-category tilt-card reveal-right">
+                <div class="tilt-glare"></div>
+                <h4>Languages</h4>
+                <p>Python, Bash, C++, C, Java</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section class="education">
+        <span class="section-label reveal">/ EDUCATION</span>
+        <p class="section-quirk reveal">&ldquo;Studying Computer Science by day, hunting vulnerabilities by night. College gave him the degree; curiosity gave him the skills.&rdquo;</p>
+        <div class="education-card tilt-card reveal">
+            <div class="tilt-glare"></div>
+            <div class="education-header">
+                <div>
+                    <h3>Kalinga Institute of Industrial Technology (KIIT)</h3>
+                    <p>B.Tech in Computer Science &amp; Engineering</p>
+                </div>
+                <div class="education-meta">
+                    <span>Aug 2023 &mdash; Aug 2027</span>
+                    <span>CGPA &mdash; 8.57</span>
+                </div>
+            </div>
+            <p class="card-cheesy">&ldquo;Maintaining a GPA and a HackerOne rank simultaneously is basically a dual-boot lifestyle.&rdquo;</p>
+            <p class="education-role">Cyber Security Lead, IoT-Lab KIIT (2025&ndash;26) &mdash; running offensive security workshops for 100+ members.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <span class="section-label reveal">/ GET IN TOUCH</span>
+        <h2 class="contact-headline reveal">LET'S BREAK THINGS<br>TOGETHER.</h2>
+        <p class="contact-sub reveal">&ldquo;Got a target that needs testing or a system that needs breaking? Bajinder&rsquo;s inbox is always open &mdash; his firewall, however, is not. Reach out before your competitors do.&rdquo;</p>
+        <div class="contact-links reveal">
+            <a href="mailto:bajinderkumarwork@gmail.com" class="contact-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>
+                bajinderkumarwork@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/bajinder-kumar-8139bb275" target="_blank" rel="noopener" class="contact-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                LinkedIn
+            </a>
+            <a href="https://github.com/Bajinder17" target="_blank" rel="noopener" class="contact-item">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+                GitHub
+            </a>
+            <a href="https://drive.google.com/file/d/1oNhJAW4SUypeQ5eG-j5L8Lhg65GDUKDd/view?usp=drive_link" target="_blank" rel="noopener" class="btn btn-primary contact-resume">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="footer-logo">BAJINDER KUMAR</span>
+            <span class="footer-copy">&copy; 2025 &mdash; Probably hacking something while you read this. No systems were harmed in the making of this portfolio. (The ones before it? No comment.)</span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
