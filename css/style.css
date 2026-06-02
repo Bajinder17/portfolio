@@ -335,9 +335,7 @@ a:hover {
 
 /* ── 3D Tilt Cards ── */
 .tilt-card {
-    transform-style: preserve-3d;
-    transform: perspective(1000px) rotateX(0) rotateY(0);
-    transition: transform 0.15s ease, border-color 0.4s, background 0.4s, box-shadow 0.4s;
+    transition: border-color 0.4s, background 0.4s, box-shadow 0.4s;
     position: relative;
     overflow: hidden;
 }
@@ -524,7 +522,7 @@ a:hover {
 .about-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .about-card {
@@ -652,7 +650,7 @@ a:hover {
 .hof-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .hof-card {
@@ -683,7 +681,6 @@ a:hover {
 .hof-card:hover {
     border-color: var(--glass-border-hover);
     background: var(--glass-hover);
-    transform: translateY(-3px);
     box-shadow: 0 12px 40px rgba(var(--primary-rgb), 0.08);
     opacity: 1;
 }
@@ -730,7 +727,7 @@ a:hover {
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .project-card {
@@ -835,7 +832,7 @@ a:hover {
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.25rem;
+    gap: 1.75rem;
     margin-bottom: 2rem;
 }
 
@@ -853,7 +850,6 @@ a:hover {
 .stat-card:hover {
     border-color: var(--glass-border-hover);
     background: var(--glass-hover);
-    transform: translateY(-2px);
     box-shadow: 0 8px 32px rgba(var(--primary-rgb), 0.06);
 }
 
@@ -881,7 +877,7 @@ a:hover {
 .certs-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.25rem;
+    gap: 1.75rem;
     margin-bottom: 2rem;
 }
 
@@ -918,7 +914,6 @@ a:hover {
 .cert-card:hover {
     border-color: var(--glass-border-hover);
     background: rgba(var(--primary-rgb), 0.04);
-    transform: translateY(-4px);
     box-shadow: 0 16px 48px rgba(var(--primary-rgb), 0.1);
 }
 
@@ -955,7 +950,7 @@ a:hover {
 .skills-group {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1.25rem;
+    gap: 1.75rem;
 }
 
 .skill-category {
